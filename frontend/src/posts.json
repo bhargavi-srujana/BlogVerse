@@ -1,0 +1,80 @@
+[
+    {
+        "id":1,
+        "field":"Technology",
+        "image":"./img1.jpeg",
+        "author":{
+            "name":"Sarah Johnson",
+            "ago":"2 hours ago",
+            "read":"5 min read",
+            "image":"./p1.jpeg"
+        },
+        "title":"Getting Started with React and Tailwind CSS",
+        "content":"Learn how to build beautiful and responsive user interfaces using React and Tailwind CSS.This comprehensive guide covers everything from setup to advanced techniques for modern web development"
+    },
+    {
+        "id":2,
+        "field":"Technology",
+        "image":"./img2.jpeg",
+        "author":{
+            "name":"Sarah Johnson",
+            "ago":"2 hours ago",
+            "read":"5 min read",
+            "image":"./p1.jpeg"
+        },
+        "title":"Getting Started with React and Tailwind CSS",
+        "content":"Learn how to build beautiful and responsive user interfaces using React and Tailwind CSS.This comprehensive guide covers everything from setup to advanced techniques for modern web development"
+    },
+    {
+        "id":3,
+        "field":"Technology",
+        "image":"./img3.jpeg",
+        "author":{
+            "name":"Sarah Johnson",
+            "ago":"2 hours ago",
+            "read":"5 min read",
+            "image":"./p2.jpeg"
+        },
+        "title":"Getting Started with React and Tailwind CSS",
+        "content":"Learn how to build beautiful and responsive user interfaces using React and Tailwind CSS.This comprehensive guide covers everything from setup to advanced techniques for modern web development"
+    },
+    {
+        "id":4,
+        "field":"Technology",
+        "image":"./img4.jpeg",
+        "author":{
+            "name":"Sarah Johnson",
+            "ago":"2 hours ago",
+            "read":"5 min read",
+            "image":"./p3.jpeg"
+        },
+        "title":"Getting Started with React and Tailwind CSS",
+        "content":"Learn how to build beautiful and responsive user interfaces using React and Tailwind CSS.This comprehensive guide covers everything from setup to advanced techniques for modern web development"
+    },
+    {
+        "id":5,
+        "field":"Technology",
+        "image":"./img5.jpeg",
+        "author":{
+            "name":"Sarah Johnson",
+            "ago":"2 hours ago",
+            "read":"5 min read",
+            "image":"./p4.jpeg"
+        },
+        "title":"Getting Started with React and Tailwind CSS",
+        "content":"Learn how to build beautiful and responsive user interfaces using React and Tailwind CSS.This comprehensive guide covers everything from setup to advanced techniques for modern web development"
+    },
+    {
+        "id":6,
+        "field":"Technology",
+        "image":"./img6.jpeg",
+        "author":{
+            "name":"Sarah Johnson",
+            "ago":"2 hours ago",
+            "read":"5 min read",
+            "image":"./p5.jpeg"
+        },
+        "title":"Getting Started with React and Tailwind CSS",
+        "content":"Learn how to build beautiful and responsive user interfaces using React and Tailwind CSS.This comprehensive guide covers everything from setup to advanced techniques for modern web development"
+    }
+]
