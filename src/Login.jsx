@@ -15,7 +15,7 @@ const Login = () => {
     <div>
       <NavBar/>
     <div className='w-screen flex flex-col items-center'>
-      <div className='w-1/3  flex  flex-col items-center mt-10 gap-2 border-1 border-gray-300  rounded-2xl shadow-2xl'>
+      <div className='md:w-1/3  flex  flex-col items-center mt-10 gap-2 border-1 border-gray-300  rounded-2xl shadow-2xl'>
        <h1 className='mt-5 text-xl font-bold'>Sign In</h1>
        <p className='text-sm text-gray-700'>Access your account</p>
        <form action="" className='w-[80%] my-5'>
@@ -39,16 +39,16 @@ const Login = () => {
         <div className='flex justify-between w-full mt-4'>
             <div className='flex   gap-1'>
                 <input type="checkbox" />
-                <p className='text-sm text-gray-800 font-semibold'>Remember me</p>
+                <p className='text-xs md:text-sm text-gray-800 font-semibold'>Remember me</p>
             </div>
             <div className=''>
-                <p className='text-sm text-blue-600 font-semibold hover:cursor-pointer'>Forgot Password?</p>
+                <p className='text-xs md:text-sm text-blue-600 font-semibold hover:cursor-pointer'>Forgot Password?</p>
             </div>
         </div>
         <button className='w-full mt-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 duration-200'>Sign In</button>
         <div className='w-full flex justify-center my-4 border-1 border-gray-200 '></div>
 
-        <p className='text-sm text-center text-gray-700'>Don't have an account?<Link to="/signup" className='text-blue-600 font-semibold hover:cursor-pointer'>Create one here</Link></p>
+        <p className='text-xs md:text-sm text-center text-gray-700'>Don't have an account?<Link to="/signup" className='text-blue-600 font-semibold hover:cursor-pointer'>Create one here</Link></p>
        </form>
       </div>
     </div>

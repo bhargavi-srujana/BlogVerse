@@ -9,13 +9,18 @@ const Home = () => {
       <NavBar/>
     <div className='w-screen py-3 flex flex-col justify-center items-center overflow-x-hidden'>
       <div className='text-center'>
-        <h1 className='text-3xl font-bold'>Welcome to BlogVerse</h1>
-        <p className='text-md text-gray-600 mt-2.5'>Discover amazing stories,insights, and ideas from our community of <br></br> writers.<Link to="/login" className='text-blue-700'>Sign in</Link> to create your own posts and save your favourites</p>
+        <h1 className='text-lg md:text-3xl font-bold'>Welcome to BlogVerse</h1>
+        <p className='text-xs md:text-md text-gray-600 mt-2.5 text-center'>Discover amazing stories,insights, and ideas from our </p>
+          <p className='text-xs md:text-md text-gray-600 pt-0.5 text-center'>
+community of writers.<Link to="/login" className='text-blue-700'>Sign in</Link> to create your own posts and save your favourites
+          </p>
+          
+          
       </div>
       <div className='flex flex-wrap justify-center gap-8 mt-8'>
        {posts.map(post => (
        
-        <div className='rounded-2xl w-[25%] border-1 border-gray-200 hover:shadow-xl overflow-hidden'>
+        <div className='rounded-2xl w-[90%] md:w-[25%] border-1 border-gray-200 hover:shadow-xl overflow-hidden'>
             <div className='w-full h-[35%] overflow-hidden relative'>
                 <div className='absolute left-3 top-3 bg-blue-700 text-white text-xs font-semibold px-2 py-1 rounded-2xl z-10'>{post.field}</div>
                  <img className='w-full  object-fill rounded-t-2xl hover:scale-110 duration-300' src={post.image} alt="" />
